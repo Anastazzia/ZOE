@@ -1,0 +1,30 @@
+.header {
+  &__container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background-color: $header-hero-reviews-statistics-bg-color;
+  }
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__about {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.header-nav__item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.header-nav__about-item:not(:last-child) {
+  margin-right: 32px;
+}
