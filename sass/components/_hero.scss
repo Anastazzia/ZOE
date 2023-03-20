@@ -1,0 +1,32 @@
+.hero {
+  background-color: $header-hero-reviews-statistics-bg-color;
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__title-container {
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+  &__title {
+    font-size: $h1-size;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: 0.1px;
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    background-color: $dark-button-bg-color;
+    color: $light-text-color;
+    padding: 15px 60px;
+    border-radius: $button-border-radius;
+  }
+
+  &__img {
+    position: relative;
+  }
+}
