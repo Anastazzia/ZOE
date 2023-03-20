@@ -1,0 +1,35 @@
+.rules {
+  background-color: #f59650;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+  padding-bottom: 120px;
+
+  &__container {
+  }
+
+  &__title {
+    font-weight: 400;
+    font-size: $h2-size;
+    line-height: calc(50 / 40);
+  }
+
+  &__btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    color: $light-text-color;
+    padding: 14px 48px;
+
+    background-color: $dark-button-bg-color;
+    border-radius: $button-border-radius;
+  }
+}
+
+.rules-list {
+  &__item {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(26 / 20);
+  }
+}

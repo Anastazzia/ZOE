@@ -69,7 +69,7 @@
             class="socondary-section__icons-img"
             src="./images/img_little-icons.png"
             alt="icon statistic"
-            height="24px"
+            height="24"
             width="128"
           />
           <p class="socondary-section__icons-text">
@@ -80,46 +80,76 @@
       </section>
 
       <!--section #3 Feed your dreams-->
-      <section>
-        <div>
-          <h2>Feed your dreams</h2>
-          <img src="" alt="" />
+      <section class="feed-your-dreams">
+        <div class="feed-your-dreams__container">
+          <div>
+            <img
+              class="feed-your-dreams__img"
+              src="./images/img_feed-your-dreams.jpg"
+              alt="happy woman"
+              height="640"
+              width="640"
+            />
+          </div>
+
+          <div class="text-container">
+            <h3 class="text-container__title">
+              Created by the world's<br />
+              top scientists
+            </h3>
+            <div class="text-container__container">
+              <p class="text-container__text">
+                Our expert team leads three of the largest nutrition research
+                studies with scientists at the world’s most respected research
+                institutions.
+              </p>
+            </div>
+          </div>
         </div>
-        <div>
-          <h3>Created by the world's top scientists</h3>
-          <p>
-            Our expert team leads three of the largest nutrition research
-            studies with scientists at the world’s most respected research
-            institutions.
-          </p>
-        </div>
-        <ul>
-          <li>Stanford Medicine</li>
-          <li>Harvard T.H. Chan School of Public Health</li>
-          <li>Massachusetts General Hospital</li>
-          <li>King’s College London</li>
+        <ul class="feed-your-dreams__list">
+          <li class="feed-your-dreams__item color-green">Stanford Medicine</li>
+          <li class="feed-your-dreams__item color-blue">
+            Harvard T.H. Chan School of Public Health
+          </li>
+          <li class="feed-your-dreams__item color-red">
+            Massachusetts General Hospital
+          </li>
+          <li class="feed-your-dreams__item color-orange">
+            King’s College London
+          </li>
         </ul>
+
+        <h2 class="feed-your-dreams__title">Feed your dreams</h2>
       </section>
 
       <!--section #4-->
-      <section>
-        <h3>Over 50 peer-reviewed papers published in top medical journals</h3>
-        <button type="button"></button>
+      <section class="research__section">
+        <h3 class="research__title">
+          Over 50 peer-reviewed papers published in top medical journals
+        </h3>
+        <button class="research__btn" type="button">
+          Learn more about our science
+        </button>
       </section>
 
       <!--section #5 Rewrite the rules by adding-->
-      <section>
-        <div>
-          <h2>Rewrite the rules by adding</h2>
-          <button type="button">See what ZOE can do</button>
+      <section class="rules">
+        <div class="rules__container">
+          <h2 class="rules__title">
+            Rewrite the<br />
+            rules by adding
+          </h2>
+          <button class="rules__btn" type="button">See what ZOE can do</button>
         </div>
         <div>
-          <ul>
-            <li>
+          <ul class="rules-list">
+            <li class="rules-list__item">
               Your gut can have more influence on your health than your genes.
             </li>
-            <li>Counting calories doesn’t work. So we don’t.</li>
-            <li>
+            <li class="rules-list__item">
+              Counting calories doesn’t work. So we don’t.
+            </li>
+            <li class="rules-list__item">
               Menopause transforms your body. It’s so much more than hot
               flashes.
             </li>
@@ -128,42 +158,70 @@
       </section>
 
       <!--section #6 OUR TESTS-->
-      <section>
-        <p>OUR TESTS</p>
-        <h4>Start your program with our at-home test.</h4>
-        <p>
-          One-size-fits-all advice doesn't work. So we'll provide you with the
-          most advanced analysis of your gut bacteria, blood sugar and blood
-          fats available. We'll then compare your results to thousands of other
-          people we've tested. Using patented techniques you can't get anywhere
-          else.
-        </p>
-        <button type="button">Discover our tests</button>
-        <img src="" alt="" />
+      <section class="test">
+        <div class="test__container">
+          <p class="test__name">OUR TESTS</p>
+          <h4 class="test__title">Start your program with our at-home test.</h4>
+          <p class="test__text">
+            One-size-fits-all advice doesn't work. So we'll provide you with the
+            most advanced analysis of your gut bacteria, blood sugar and blood
+            fats available. We'll then compare your results to thousands of
+            other people we've tested. Using patented techniques you can't get
+            anywhere else.
+          </p>
+          <button class="test__btn" type="button">Discover our tests</button>
+        </div>
+        <img
+          class="test__img"
+          src="./images/img_our-test.jpg"
+          alt="box with test"
+          height="640"
+          width="640"
+        />
       </section>
 
       <!--section #7 YOUR PROGRAM-->
-      <section>
-        <p>YOUR PROGRAM</p>
-        <h4>Get personalized advice powered by your unique test results</h4>
-        <p>
-          On the ZOE Program, no food is off limits because science shows
-          restricting yourself just doesn’t work. So, we'll teach you how to
-          make smart combos each week, using insights from your tests to improve
-          your meals.
-        </p>
-        <button type="button">See how it works</button>
+      <section class="program">
+        <img
+          class="program__img"
+          src="./images/img_your-program.jpg"
+          alt="food program list"
+          height="640"
+          width="640"
+        />
+        <div class="program__text-container">
+          <p class="program__name">YOUR PROGRAM</p>
+          <h4 class="program__title">
+            Get personalized advice powered by your unique test results
+          </h4>
+          <p class="program__text">
+            On the ZOE Program, no food is off limits because science shows
+            restricting yourself just doesn’t work. So, we'll teach you how to
+            make smart combos each week, using insights from your tests to
+            improve your meals.
+          </p>
+          <button class="program__btn" type="button">See how it works</button>
+        </div>
       </section>
 
       <!--section #8 reviews-->
-      <section>
-        <h3>We set out to change lives, and it's working!</h3>
-        <ul>
-          <li><img src="" alt="" /></li>
-          <li>4.5/5</li>
-        </ul>
+      <section class="reviews">
+        <h3 class="reviews__title">
+          We set out to change<br />
+          lives, and it's working!
+        </h3>
+        <div class="reviews__container">
+          <img
+            class="reviews__icons-img"
+            src="./images/img_little-icons.png"
+            alt="icons"
+            height="24"
+            width="128"
+          />
+          <p class="reviews__icons-text">4.5/5</p>
+        </div>
 
-        <ul>
+        <ul class="reviews-list">
           <li>
             <ul>
               <li><img src="" alt="" /></li>
@@ -234,31 +292,36 @@
           </li>
         </ul>
 
-        <button type="button">Read all reviews</button>
+        <button class="reviews__btn" type="button">Read all reviews</button>
       </section>
 
       <!--section #9 YOUR PROGRAM-->
-      <section>
-        <h4>THE RESULTS</h4>
-        <h3>People who followed the ZOE program report impressive results.</h3>
-        <p>
+      <section class="result">
+        <p class="result__name">THE RESULTS</p>
+        <h3 class="result__title">
+          People who followed the ZOE program report<br />
+          impressive results.
+        </h3>
+        <p class="result__text">
           We surveyed 450 members who had closely followed ZOE’s advice for more
           than 12 weeks.
         </p>
       </section>
 
       <!--section #10 TOP HEALTH IMPROVEMENTS-->
-      <section>
-        <ul>
-          <li></li>
-          <li><h3>84% feel healthier</h3></li>
-          <li>TOP HEALTH IMPROVEMENTS</li>
-          <li></li>
-          <li>Improved mood & alertness</li>
-          <li>Better bowel habits</li>
-          <li>Improved blood sugar & fats</li>
-          <li>Less bloating</li>
-          <li>Better sleep quality</li>
+      <section class="health">
+        <ul class="health__header">
+            <li class="health__h-item><h3 class="health__title">84% feel healthier</h3></li>
+          </li>
+          <li class="health__h-item">TOP HEALTH IMPROVEMENTS</li>
+        </ul>
+        <ul class="health__list">
+          <li class="health__item"></li>
+          <li class="health__item">Improved mood & alertness</li>
+          <li class="health__item">Better bowel habits</li>
+          <li class="health__item">Improved blood sugar & fats</li>
+          <li class="health__item">Less bloating</li>
+          <li class="health__item">Better sleep quality</li>
         </ul>
       </section>
 
