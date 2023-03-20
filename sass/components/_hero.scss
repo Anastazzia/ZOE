@@ -14,7 +14,8 @@
   &__title {
     font-size: $h1-size;
     font-weight: 400;
-    line-height: 54px;
+    font-size: $h1-size;
+    line-height: calc(54 / 45);
     letter-spacing: 0.1px;
     margin-bottom: 30px;
   }
